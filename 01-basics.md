@@ -42,4 +42,6 @@ This will add the file ```sandbox/add.txt``` and remove the file ```sandbox/remo
 Congratulations! You now know the basics of Git. Thank you for reaching the end of this workshop.</br>
 We hope you will complete our subsequent workshops. - RG
 
-
+# Bonus Material
+Check out [this project on Repl.it](https://repl.it/@rkclg/MathsCodingSocietyBonusMaterial#main.py) . Experiment and try coming up with more vector functions !
+ 
