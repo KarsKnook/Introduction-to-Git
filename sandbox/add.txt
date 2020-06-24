@@ -1,3 +1,0 @@
-Use git add to add files
-
-Hurrah I know the basics of git
