@@ -1,0 +1,1 @@
+Remove this file using git --rm sandbox/remove.txt
