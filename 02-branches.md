@@ -8,18 +8,17 @@ This workshop is intended to familiarise you with branches and remotes in Git.
 
 ```git branch -v ```
 
-3.
-To create a branch with your username:
+3.To create a branch with your username:
 ```
-git branch <username> (create branch)
+git branch <username>
 ```
 The following command lists all your SHA-256 commits for a repository:
 ```
-git log --oneline --decorate (to show SHA-256 commits for branches)
+git log --oneline --decorate
 ```
 In order to switch to the new branch ( the one with your username you just created):
 ```
-git checkout <username> (switch to branch)
+git checkout <username> 
 ```
 This can actually be done in one command as:
 ```
