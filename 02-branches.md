@@ -31,18 +31,27 @@ print("<Your GitHub Username>")
 ```
 You can run it using ```python username.py```. ( It should output your GitHub username).
 
+Copy it to the ```sandbox``` folder ,remove it and then commit sandbox:
+```
 git cp username.py sandbox/username.py
 git rm username.py
 git add sandbox/username.py
-git commit -m "second commit"
+git commit -m "second commit to learn branches"
 git push origin <username>
+```
 
+5.To merge with the ```master``` branch:
+```
 git merge master <username>
 git add sandbox/username.py
 git commit -m "second commit"
 git push
+```
 
+To check conflicts:
+```
 git -diff to check conflicts
+```
 delete it one and push it (master branch) and modify it in <username> branch
 
 git checkout <username>
