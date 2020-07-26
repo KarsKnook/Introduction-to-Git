@@ -1,7 +1,7 @@
 # Workshop 2
 This workshop is intended to familiarise you with branches and remotes in Git.
 
-# branches
+# Branches
 
 1. A branch is an independent line of development in Git (preferably one for each member of a project).
 2. Let's start by showing all the branches , in the existing repo ( which you should already have if you completed workshop 1).
@@ -52,9 +52,11 @@ To check conflicts:
 ```
 git -diff to check conflicts
 ```
-delete it one and push it (master branch) and modify it in <username> branch
-
+6. In case of any problems , use 
+```
 git checkout <username>
 git rebase master
+``` 
+and ask for assistance.
 
--- remotes
+# Remotes
