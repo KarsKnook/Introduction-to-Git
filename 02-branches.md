@@ -8,16 +8,23 @@ This workshop is intended to familiarise you with branches and remotes in Git.
 
 ```git branch -v ```
 
-3. To create a branch with your username:
-```git branch <username> (create branch)```
+3.
+To create a branch with your username:
+```
+git branch <username> (create branch)
+```
 The following command lists all your SHA-256 commits for a repository:
-```git log --oneline --decorate (to show SHA-256 commits for branches)```
+```
+git log --oneline --decorate (to show SHA-256 commits for branches)
+```
 In order to switch to the new branch ( the one with your username you just created):
-```git checkout <username> (switch to branch)```
-
+```
+git checkout <username> (switch to branch)
+```
 This can actually be done in one command as:
-```git checkout -b <username>```
-
+```
+git checkout -b <username>
+```
 4. Create a python file named ```username.py``` (I am using nano , you may wish to use some other IDE like VSCode/PyCharm/Notepad etc.):
 ```
 nano username.py
