@@ -50,7 +50,7 @@ git push
 
 To check conflicts:
 ```
-git -diff to check conflicts
+git -diff
 ```
 6. In case of any problems , use 
 ```
@@ -60,3 +60,12 @@ git rebase master
 and ask for assistance.
 
 # Remotes
+
+1. Git remotes are versions of your repositories stored in different locations (aka remote locations).
+2. In this example we will be setting up a git remote with [OverLeaf](https://www.overleaf.com) , an online LaTex editor.
+3. To start , create a new OverLeaf project. Go to Menu , and click ```Git``` under Sync. A popup box with similar text should be launched:
+```
+
+```
+Copy this and paste this in our terminal. Execute it to clone the repo.
+4. Now create 
