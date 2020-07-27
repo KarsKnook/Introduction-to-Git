@@ -63,9 +63,23 @@ and ask for assistance.
 
 1. Git remotes are versions of your repositories stored in different locations (aka remote locations).
 2. In this example we will be setting up a git remote with [OverLeaf](https://www.overleaf.com) , an online LaTex editor.
-3. To start , create a new OverLeaf project. Go to Menu , and click ```Git``` under Sync. A popup box with similar text should be launched:
+3. To start , create a new OverLeaf project or go to an existing one. Go to Menu , and click ```Git``` under Sync. A popup box with similar text should be launched:
 ```
-
+git clone https://git.overleaf.com/<Some SHA-256 Hash>
 ```
-Copy this and paste this in our terminal. Execute it to clone the repo.
-4. Now create 
+Copy the entire url ( except for the git clone)
+4. Now type the following commands:
+```
+git remote add overleaf https://git.overleaf.com/<Some SHA-256 Hash>
+git remote set-url --add --push overleaf https://git.overleaf.com/<Some SHA-256 Hash>
+```
+This adds Overleaf as a remote source to your repository. To check out all the remotes use 
+```
+git remote -v
+```
+5. To sync from Overleaf for the first time , use 
+```
+git pull overleaf master --allow-unrelated-histories
+ ```
+ 
+6. Voila - now you can use git remotes for a variety of purposes !
